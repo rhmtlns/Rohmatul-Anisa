@@ -1,0 +1,23 @@
+h1{
+  color: white;
+  font-size: 40px;
+  font-family: serif;
+  background-color: brown;
+  width: 600px;
+  height: 90px;
+}
+p{
+  color: black;
+  font-size: 15px;
+  font-family: Avenir-Next;
+}
+img{
+  width:300px;
+  height:200px;
+}
+li{
+  color: black;
+}
+.selected{
+  color: green;
+}
