@@ -1,4 +1,26 @@
-h1{
+.header{
+  height: 60px;
+}
+
+.header-logo{
+  width: 20px;
+  height: 20px;
+}
+
+.header-list{
+  float: left;
+  margin: 10px 25px;
+  font-family: algerian;
+  font-size: 40px;
+  color: white;
+}
+
+.main{
+  width: 500px;
+  height: 90px;
+}
+
+.main h1{
   color: white;
   font-size: 40px;
   font-family: serif;
@@ -6,18 +28,25 @@ h1{
   width: 600px;
   height: 90px;
 }
-p{
+
+.main li{
+  background-color: green;
+  font-family: algerian;
+  font-size: 20px;
+}
+
+.footer p{
   color: black;
   font-size: 15px;
   font-family: Avenir-Next;
 }
-img{
-  width:300px;
-  height:200px;
+
+.footer logo{
+  width: 20px;
+  height: 20px;
+  float: right;
 }
-li{
-  color: black;
-}
+
 .selected{
   color: green;
 }
